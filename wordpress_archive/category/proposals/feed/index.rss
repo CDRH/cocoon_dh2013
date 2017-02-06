@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digital Humanities 2013 &#187; proposals</title>
+	<atom:link href="http://dh2013.unl.edu/category/proposals/feed/" rel="self" type="application/rss+xml" />
+	<link>http://dh2013.unl.edu</link>
+	<description>University of Nebraska–Lincoln, 16-19 July 2013</description>
+	<lastBuildDate>Tue, 08 Mar 2016 18:28:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Costs for rooms and food for workshops and tutorials</title>
+		<link>http://dh2013.unl.edu/costs-for-rooms-and-food-for-workshops-and-tutorials/</link>
+		<comments>http://dh2013.unl.edu/costs-for-rooms-and-food-for-workshops-and-tutorials/#comments</comments>
+		<pubDate>Thu, 07 Feb 2013 16:59:21 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[proposals]]></category>
+
+		<guid isPermaLink="false">http://dh2013.unl.edu/?p=339</guid>
+		<description><![CDATA[Information on room, tech and food costs has been added to the Call for Proposals for those working on budgets for their workshops and tutorials. All costs are subject to change, but are provided as a baseline to help create budgets.]]></description>
+				<content:encoded><![CDATA[<p>Information on <a href="http://dh2013.unl.edu/room-technology-and-food-costs-for-workshops/">room, tech and food costs</a> has been added to the Call for Proposals for those working on budgets for their workshops and tutorials. All costs are subject to change, but are provided as a baseline to help create budgets.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://dh2013.unl.edu/costs-for-rooms-and-food-for-workshops-and-tutorials/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Proposal deadline extended two days</title>
+		<link>http://dh2013.unl.edu/proposal-deadline-extended-two-days/</link>
+		<comments>http://dh2013.unl.edu/proposal-deadline-extended-two-days/#comments</comments>
+		<pubDate>Wed, 31 Oct 2012 14:20:41 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[proposals]]></category>
+
+		<guid isPermaLink="false">http://dh2013.unl.edu/?p=272</guid>
+		<description><![CDATA[In light of widespread power outages and disruptions caused by Hurricane Sandy on the eastern seaboard of the United States, the international program committee for Digital Humanities 2013 has decided to extend our deadline for proposals by 48 hours. The NEW DEADLINE for &#8230; <a href="http://dh2013.unl.edu/proposal-deadline-extended-two-days/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>In light of widespread power outages and disruptions caused by Hurricane Sandy on the eastern seaboard of the United States, the international program committee for Digital Humanities 2013 has decided to extend our deadline for proposals by 48 hours.</p>
+<p>The NEW DEADLINE for paper, poster, and panel sessions at DH 2013 is <strong>11:59pm GMT on Saturday, November 3rd</strong>.</p>
+<p>The &#8220;bidding phase&#8221; for the conference, a new feature for DH 2013 in which registered reviewers will be able to indicate preferences and mark conflicts of interest, will therefore extend from November 5th-8th, and reviewing will happen on schedule, from November 10th-December 14th.</p>
+<p>If you are a reviewer or author residing in an area affected by the hurricane, who needs to communicate extenuating circumstances, please contact Bethany Nowviskie at bethany [at] virginia [dot] edu.</p>
+<p>On behalf of the Program Committee,<br />
+Bethany Nowviskie (chair)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://dh2013.unl.edu/proposal-deadline-extended-two-days/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Call for Papers up and Submissions open!</title>
+		<link>http://dh2013.unl.edu/call-for-papers-up-and-submissions-open/</link>
+		<comments>http://dh2013.unl.edu/call-for-papers-up-and-submissions-open/#comments</comments>
+		<pubDate>Wed, 03 Oct 2012 16:05:29 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[proposals]]></category>
+
+		<guid isPermaLink="false">http://dh2013.unl.edu/?p=231</guid>
+		<description><![CDATA[The Call for Proposals for Digital Humanities 2013 is up, and interested applicants can submit from that page. Also linked from Call for Proposals is the 2012 Guidelines for Proposal Authors and Reviewers. The Paper/Poster/Panel deadline is 1 November 2012, and the &#8230; <a href="http://dh2013.unl.edu/call-for-papers-up-and-submissions-open/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>The <a href="http://dh2013.unl.edu/call-for-proposals/">Call for Proposals</a> for Digital Humanities 2013 is up, and interested applicants can submit from that page. Also linked from Call for Proposals is the 2012 <a href="http://dh2013.unl.edu/guidelines-for-proposal-authors-and-reviewers/">Guidelines for Proposal Authors and Reviewers</a>.</p>
+<p>The Paper/Poster/Panel deadline is 1 November 2012, and the Workshop proposal deadline is 15 February 2013.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://dh2013.unl.edu/call-for-papers-up-and-submissions-open/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

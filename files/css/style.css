@@ -1,0 +1,776 @@
+/* @override http://spacely.unl.edu/cocoon/transmississippi/files/css/style.css */
+
+/* @override http://spacely.unl.edu/cocoon/transmississippi/files/css/style.css */
+
+/* @override http://spacely.unl.edu/cocoon/transmississippi/files/css/style.css */
+
+/* @override http://spacely.unl.edu/cocoon/transmississippi/files/css/style.css */
+
+/* @override http://spacely.unl.edu/cocoon/transmississippi/files/css/style.css */
+
+/* ==|== primary styles =====================================================
+   Author: Karin Dalziel
+   ========================================================================== */
+
+/* FONTS*/
+
+/* @font-face fonts go here */
+
+
+/* Basic Font Styling */
+
+body {
+	font: 1.1em 'Rokkitt', serif; /* Google font */
+	background-color: #ececec;
+}
+
+pre {
+	font: 1em 'Rokkitt', serif; /* Google font */
+	display:inline;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+	font-family:'Marcellus', serif; /* Google font */
+	font-weight: 400;
+	clear: both;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    width:100%;
+}
+
+table td {
+	border-top: solid 1px #aaa;
+	/*border-bottom: solid 1px #aaa;*/
+	padding: 5px 5px;
+	padding-right: 25px;
+}
+
+.alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+	border: 1px solid #aaa;
+}
+
+/* Links */
+
+a {
+	color: #396a78;
+}
+
+a:hover {
+	color: #ac0000;
+}
+
+a:visited {
+	color: #315b67;
+}
+
+/* Header */
+
+.header {
+	margin: -30px -30px 10px -30px; /* must match padding on .pagewrap */
+	background-color: #494a4a;
+}
+
+.header h1 {
+	text-align: center;
+	line-height: 1;
+	font-size: 3em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.header h1 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header h1 {
+	padding: .1em 0 0 0;
+	margin: auto;
+}
+
+.header h2 {
+	text-align: center;
+	line-height: 1;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+.header h2 a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.header h2 {
+	padding: 0 0 1em 0;
+	margin: auto;
+}
+
+.header {
+	overflow: auto;
+}
+
+.header h1 {
+	width: 60%; float: left;
+}
+
+.header form {
+	width: 35%;
+	float: right;
+	text-align: right;
+	color: #fff;
+	margin: .1em 20px 0 0;
+}
+
+.header form h3 {
+
+	color: #fff;
+}
+
+
+/* Header Navigation */
+
+/* Hidden in stylesheet until more content */
+
+.nav {
+	margin: 0;
+	padding: 0;
+	background-color: #ececec;
+	/*display: none;*/
+	font-size: 1.2em;
+	clear: both;
+}
+
+.nav ul{
+	text-align: center;
+	line-height: 1.9em;
+	margin: 10px;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline;
+	margin: 0 .3em;	
+}
+
+.nav ul li a {
+	padding: .2em .6em .3em .6em;
+	white-space: nowrap;
+	text-decoration:none;
+}
+
+.nav ul li a:hover {
+	background-color: #ac0000;
+	color: #fff !important;
+}
+
+.nav ul li a:visited {
+	background-color: #ac0000;
+	color: #396a78;
+}
+
+/* h1, h2, h3, h4, h5, h6 */
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: .2em 0;
+	padding: 0;
+	color: #ac0000;
+}
+
+h2 {
+	font-size: 1.8em;	
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1.0em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6
+{
+	font-size: .8em;
+}
+
+
+/* Layout */
+
+.pagewrap {
+	max-width: 90em;
+	margin: auto;
+	padding: 30px; /* must match negative margins in .header */
+	overflow: auto;
+}
+
+.footer {
+	clear: both;
+	background-color: #484a4a;
+	margin: 10px -30px -30px -30px;/* must match negative margins in .pagewrap */
+	padding: 20px;
+	padding-bottom: 120px;
+	color: #fff;
+	text-align: right;
+}
+
+.footerinfo {
+    font-size: .9em;
+    font-weight: normal;
+    color: #fff;
+}
+
+.footerinfo a {
+    color: #fff;
+}
+
+
+body {
+	width: 90%;
+	margin: auto;
+}
+
+.pagewrap {
+	font-size: 1.2em;
+	max-width: 1200px;
+	background-color: #fff;
+	-moz-box-shadow: 0px 0px 20px #888;
+	-webkit-box-shadow: 0px 0px 20px #888;
+	box-shadow: 0px 0px 20px #888;
+}
+
+
+
+span.pageimage {
+	border: 1px solid #aaa;
+	/*border-top: none;*/
+	margin: 0;
+	padding: 0;
+	float: right;
+	clear: both;
+	margin: -2px 0 10px 10px;
+}
+
+/*.hr {
+	border-top: 3px solid #aaa; 
+	clear: right;
+	width: 100%;
+	
+	display: block;
+	height: 0px;
+}*/
+
+.hr {
+
+    border-top: dashed 1px #aaa;
+	display: block;
+	height: 1px;
+	margin: 10px 0 0 0;
+	padding: 0px 0 0 0;
+	clear: right;
+}
+
+.right {
+	float: right;
+	margin: 0 0 10px 10px;
+	clear: right;
+}
+
+/* Page images and figures */
+
+.pageimage {
+	/*float: right;
+	clear: right;
+	margin: -4px 0  10px 10px;
+	text-align: left;
+	width: 125px;*/
+	/*background: #aaa;*/
+}
+
+.pageimage img {
+	/*border: 1px solid #ccc;*/
+}
+
+/* Not using figures right now */
+/*.figure {
+	float: left;
+	clear: left;
+	margin:  0 10px 10px -135px;
+	z-index: 20;
+	width: 125px;
+	text-align: right;
+}*/
+
+.page_hr {
+	clear: right;
+	margin: 0 -10px 0 0;
+	padding: 0;
+}
+
+.fw h6 {
+	float: left;
+	clear: left;
+	margin:  0 10px 10px -135px;
+	z-index: 20;
+	width: 125px;
+	text-align: right;
+}
+
+.figure a {
+	text-decoration: none; /* Remove underlines from figure links */
+}
+
+
+img.display {
+	/*border: 1px solid #aaa;*/
+}
+
+.figure_holder {
+	display: block;
+	float: none;
+	background: #f2f4e6;
+	padding: 5px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.figure {
+	display: block;
+	float: left;
+	overflow: auto;
+	font-size: .9em;
+	padding: 5px;
+	width: 160px;
+}
+
+.figure img.display, .figure_description {
+	float: left;
+	display: block;
+}
+
+.figure_description {
+	width: 125px;
+	display: block;
+	font-size: .9em;
+}
+
+.pageimage a {
+	font-size: .8em;
+}
+
+
+/* Petition display */
+
+.dateline, .closer, .editorial {	
+}
+
+.ab {	
+   margin: 25px 0;
+}
+
+/* .closer {
+	margin-left: 2em;
+} */
+
+.bibliography {
+	line-height: 1.2em;
+}
+
+.bibliography p {
+	clear: both;
+	padding: 0;
+	margin: 5px;
+}
+
+.bibliography p.metadatakeywords strong {
+	padding: 3px 0px;
+	margin: 2px 0;
+	float: left;
+}
+
+del {
+color: #949494;     
+}
+
+.illegible, .teispace {
+	color: #949494;
+}
+
+.callout {
+	border: 1px solid #b2b0b7;
+	background-color: #ececec;
+	margin: .5em 0 .5em 0;
+	padding: 5px 15px;
+	clear: both;
+}
+
+.callout .selected {
+	border: 1px solid #d9d8db;
+	background-color: #ffffff;
+	text-decoration:none;
+}
+
+
+
+/* Tooltips and switch boxes */
+
+#tooltip {
+	position: absolute;
+	z-index: 9999;
+	color: #000;
+	font-size: .9em;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	padding: 10px;
+	text-align: left;
+	-moz-box-shadow: 5px 5px 5px #aaa;
+	-webkit-box-shadow: 5px 5px 5px #aaa;
+	box-shadow: 5px 5px 5px #aaa;
+	line-height: 1.4;
+	max-width: 400px;
+}
+
+#tooltip.inlinenote {
+	max-width: 400px !important;
+}
+
+a #tooltip {
+	text-decoration: none;
+}
+
+div#regularized_text_switch_box {
+	font-style: italic;
+	color: #b33f2d;
+	border: 1px #aaa solid;
+	padding: 10px;
+	margin: 5px -11px 5px -11px;
+	background-color: #ececec;
+	display: block;
+	text-decoration: none;
+}
+
+div#regularized_text_switch_box a {
+	text-decoration: none;
+}
+
+.persName {
+}
+
+.subjectLink {
+	border: 0px solid #b2b0b7;
+	padding: 2px;
+	margin: 2px;
+	background-color: #f2f2f2;
+}
+
+.singlespace {
+}
+
+a.sic, a.orig {
+	text-decoration: none !important;
+	border-bottom: 1px dotted #939393;
+}
+
+div#switch_box {
+	font-style:italic;
+	/* color: #b33f2d; */
+	border: 1px #aaa solid;
+	padding: 10px;
+	/* margin: 5px -11px 5px -11px; */
+	margin: 0 0 10px 0;
+	background-color: #ececec;
+	display: block;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==|== Expand Text ======================================================== */
+.hidden { 
+	display: none;
+	}
+
+.unhidden { 
+	display: block; 
+	}	
+
+
+/* Pagination */
+
+.pagination {
+	text-align: right;
+	width: 100%;
+	float: right;
+	display: block;
+	clear: both;
+	font: .8em "Lucida Grande", Lucida, Verdana, sans-serif;
+	
+}
+
+.pagination, .searchSort {
+	
+	padding: 0;
+	margin: 0;
+	padding:  10px 0;
+}
+
+.paginationline {
+	clear: both;
+	border-bottom: #aaa solid 2px;
+	padding: 0;
+	margin: 20px 0;
+	height: 2px;
+}
+
+.paginationJump {
+	width: 4em;
+	height: 1.4em;
+	font-size: 1em;
+	margin-bottom: 2px;
+	border: 1px solid #aaa;
+}
+
+.pagination input.submit {
+	height: 1.4em;
+	font-size: 1em;
+	margin-bottom: 2px;
+	border: 1px solid #aaa;
+}
+
+form.jumpForm {
+	display: inline;
+}
+.pagination p {
+	margin: 0;
+	padding:0;
+}
+
+/* Sub categories and keywords */
+
+ul.sub_categories, ul.keywords {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.sub_categories li a, ul.keywords li a {
+	float: left;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #fff;
+	background-color: RGBA(0, 0, 0,.7);
+}
+
+ul.keywords li a {
+	/*padding: 5px 10px;*/
+}
+
+ul.sub_categories li a:hover, ul.keywords li a:hover {
+	background-color: #ae020c;
+}
+
+ul.sub_categories li a .name {
+	margin: 0 1.5em 0px 0;
+	padding: 10px 10px 0 10px;
+	font-size: 1.2em;	
+}
+
+ul.sub_categories li a .number {
+	padding-top: 5px;
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 3em;
+	margin: 0 -.05em -.26em 0;
+}
+
+ul.keywords li a .name {
+	margin-right: 1em;
+}
+
+
+
+ /* List Search results listing*/ 
+
+div.thumbnail_listing {
+	margin-top: 10px;
+	clear: both;
+	overflow: auto;
+}
+
+div.thumbnail_listing span.thumbnail_div {
+	width: 145px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	text-align: right;
+	margin-left: 20px;
+}
+
+div.thumbnail_listing span.thumbnail_div img {
+	/*margin-top: 3px;*/
+	margin-top:-15px;
+	border: solid 5px #ececec;
+}
+
+div.thumbnail_listing a {
+	border-top: 20px solid #ececec;
+	display: block;
+	/*padding-top: 10px;*/
+	font-size: 1.2em;
+	
+}
+
+div.thumbnail_listing p {
+	margin: 10px 0 0 10px;
+	
+}
+
+ /*Gallery result listing*/ 
+
+div.thumbnail_listing_images {
+	overflow: auto;
+	float: left;
+	position: relative;
+	margin: 0 15px 15px 0;
+}
+
+div.thumbnail_listing_images span.thumbnail_div {
+	display: block;
+	float: left;
+	min-width: 140px;
+	background-color: #aaa;
+	text-align: center;
+}
+
+div.thumbnail_listing_images span.thumbnail_div img {
+	margin: 0;
+}
+
+div.thumbnail_listing_images a {
+	color: #000;
+}
+
+div.thumbnail_listing_images:hover a {
+	color: #ae020c;
+}
+
+div.thumbnail_listing_images p {
+	position: absolute;
+	width: 140px;
+	background-color: RGBA(250, 250, 250,.7);
+	
+	font-size: .9em;
+	bottom: 0px;
+	margin: 0;
+	width:100%
+}
+
+div.thumbnail_listing_images a:hover p {
+	display: block;
+}
+
+
+
+/* Other */
+
+.pagination {
+	clear: both;
+}
+
+
+
+
+.selected {
+	background-color: #ccc;
+}
+
+.home #nav a.home,
+.photographs #nav a.photographs,
+.memorabilia #nav a.memorabilia,
+.texts #nav a.texts,
+.commentary #nav a.commentary,
+.about #nav a.about {
+	background-color: #484a4a;
+	color: white;
+}
+
+.home.subpage #nav a.home,
+.photographs.subpage #nav a.photographs,
+.memorabilia.subpage #nav a.memorabilia,
+.texts.subpage #nav a.texts,
+.commentary.subpage #nav a.commentary,
+.about.subpage #nav a.about {
+	background-color: #cfcfcf;
+	color: #000;
+}
+
+
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

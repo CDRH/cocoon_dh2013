@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digital Humanities 2013 &#187; Uncategorized</title>
+	<atom:link href="http://dh2013.unl.edu/category/uncategorized/feed/" rel="self" type="application/rss+xml" />
+	<link>http://dh2013.unl.edu</link>
+	<description>University of Nebraska–Lincoln, 16-19 July 2013</description>
+	<lastBuildDate>Tue, 08 Mar 2016 18:28:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>Photographs from Digital Humanities 2013 are up!</title>
+		<link>http://dh2013.unl.edu/photographs-from-digital-humanities-2013-are-up/</link>
+		<comments>http://dh2013.unl.edu/photographs-from-digital-humanities-2013-are-up/#comments</comments>
+		<pubDate>Fri, 16 Aug 2013 21:47:16 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://dh2013.unl.edu/?p=873</guid>
+		<description><![CDATA[Photographs from Digital Humanities 2013 can be found on the Photographs page.]]></description>
+				<content:encoded><![CDATA[<p>Photographs from Digital Humanities 2013 can be found on the <a href="http://dh2013.unl.edu/photographs-of-dh13/">Photographs page</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://dh2013.unl.edu/photographs-from-digital-humanities-2013-are-up/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Program for Digital Humanities 2013 is up!</title>
+		<link>http://dh2013.unl.edu/program-for-digital-humanities-2013-is-up/</link>
+		<comments>http://dh2013.unl.edu/program-for-digital-humanities-2013-is-up/#comments</comments>
+		<pubDate>Mon, 22 Apr 2013 13:45:05 +0000</pubDate>
+		<dc:creator>admin</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://dh2013.unl.edu/?p=663</guid>
+		<description><![CDATA[You can view the program on the detailed program page. Coming soon: more information on posters, as well as links to individual abstracts. And, as a reminder, you can get the early registration rate until May 31, so be sure &#8230; <a href="http://dh2013.unl.edu/program-for-digital-humanities-2013-is-up/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>You can view the program on the <a href="http://dh2013.unl.edu/schedule-and-events/program/">detailed program page</a>. Coming soon: more information on posters, as well as links to individual abstracts.</p>
+<p>And, as a reminder, you can get the early registration rate until May 31, so be sure to <a href="http://dh2013.unl.edu/registration/">register soon</a>!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://dh2013.unl.edu/program-for-digital-humanities-2013-is-up/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

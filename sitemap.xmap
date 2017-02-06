@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+    <map:components>
+        <map:generators default="file"/>
+        <map:transformers default="xslt"/>
+        <map:serializers default="xhtmlutf8">
+            <map:serializer logger="sitemap.serializer.xhtml" mime-type="text/html" name="xhtmlutf8" pool-grow="2" pool-max="64" pool-min="2" src="org.apache.cocoon.serialization.XMLSerializer">
+                <doctype-public>-//W3C//DTD XHTML 1.0 Transitional//EN</doctype-public>
+                <doctype-system>http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd</doctype-system>
+                <encoding>US-ASCII</encoding>
+                <omit-xml-declaration>yes</omit-xml-declaration>
+                <indent>no</indent>
+            </map:serializer>
+        </map:serializers>
+        <map:selectors default="browser"/>
+        
+        <map:matchers default="wildcard"/>
+        
+    </map:components>
+    
+    <map:pipelines>
+        
+        <map:component-configurations>
+            
+        </map:component-configurations>
+        
+        <map:pipeline>
+            
+            <!-- Main Page (/ or index.html) -->
+            
+            <map:match pattern="abstracts/index.html" >
+                <map:generate src="xml/other/000.home.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="pagetype" value="home"/>
+                    <map:parameter name="subpagetype" value=""/>
+                    <map:parameter name="pageid" value=""/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/search.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <!--<map:parameter name="q" value="*:*"/>-->
+                    <map:parameter name="pagetype" value="search"/> 
+                    <map:parameter name="subpagetype" value="{1}"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/browse.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="browse"/> 
+                    <map:parameter name="subpagetype" value="{1}"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/author.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="author"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/date_day.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="date_day"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/session.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="session"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/combo_keywords.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="combo_keywords"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/keywords.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="keywords"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/affiliation.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="affiliation"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/topic.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="facets"/> 
+                    <map:parameter name="subpagetype" value="topic"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+            
+            <map:match pattern="abstracts/program.html">
+                <map:generate src="xml/other/000.search.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="use-request-parameters" value="true" />
+                    <map:parameter name="q" value="*:*"/>
+                    <map:parameter name="pagetype" value="program"/> 
+                    <map:parameter name="subpagetype" value="program"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+
+            
+            <map:match pattern="abstracts/*.html">
+                <map:generate src="xml/documents/{1}.xml" />
+                <map:transform src="stylesheets/xslt/tei.p5.xsl">
+                    <map:parameter name="pagetype" value="texts"/>
+                    <map:parameter name="subpagetype" value="item"/>
+                    <map:parameter name="pageid" value="{1}"/>
+                </map:transform>
+                <map:serialize type="xhtmlutf8" />
+            </map:match>
+
+
+            
+            <!-- Individual XML file display (in XML) -->
+           
+            
+           
+        
+            
+            <map:match pattern="*.xml">
+                <map:read src="xml/documents/{1}.xml"/>
+            </map:match>
+            
+            <map:match pattern="files/css/**">
+                <map:read src="files/css/{1}"/>
+            </map:match>
+            
+            <map:match pattern="files/template/**">
+                <map:read src="files/template/{1}"/>
+            </map:match>
+            
+            <map:match pattern="files/js/**">
+                <map:read src="files/js/{1}"/>
+            </map:match>
+            
+            <map:match pattern="files/figures/**">
+                <map:read src="files/figures/{1}"/>
+            </map:match>
+            
+            <map:match pattern="files/downloads/**">
+                <map:read src="files/downloads/{1}"/>
+            </map:match>
+            
+            <!-- rules for wordpress files -->
+            
+            <map:match pattern="*.html">
+                <map:read src="wordpress_archive/{1}.html"/>
+            </map:match>
+            
+            <map:match pattern="wp-content/**">
+                <map:read src="wordpress_archive/wp-content/{1}"/>
+            </map:match>
+            
+            
+            <map:match pattern="index.html"><map:read src="wordpress_archive/index.html"/></map:match>
+            <map:match pattern="2012/**"><map:read src="wordpress_archive/2012/{1}"/></map:match>
+            <map:match pattern="2013/**"><map:read src="wordpress_archive/2013/{1}"/></map:match>
+            <map:match pattern="about/**"><map:read src="wordpress_archive/about/{1}"/></map:match>
+            <map:match pattern="ach-social-events-at-dh-2013/**"><map:read src="wordpress_archive/ach-social-events-at-dh-2013/{1}"/></map:match>
+            <map:match pattern="archiv/**"><map:read src="wordpress_archive/archiv/{1}"/></map:match>
+            <map:match pattern="call-for-adho-bursaries/**"><map:read src="wordpress_archive/call-for-adho-bursaries/{1}"/></map:match>
+            <map:match pattern="call-for-papers-up-and-submissions-open/**"><map:read src="wordpress_archive/call-for-papers-up-and-submissions-open/{1}"/></map:match>
+            <map:match pattern="call-for-proposals/**"><map:read src="wordpress_archive/call-for-proposals/{1}"/></map:match>
+            <map:match pattern="category/**"><map:read src="wordpress_archive/category/{1}"/></map:match>
+            <map:match pattern="costs-for-rooms-and-food-for-workshops-and-tutorials/**"><map:read src="wordpress_archive/costs-for-rooms-and-food-for-workshops-and-tutorials/{1}"/></map:match>
+            <map:match pattern="darryl-white-group-will-perform-at-the-18-july-dh2013-reception/**"><map:read src="wordpress_archive/darryl-white-group-will-perform-at-the-18-july-dh2013-reception/{1}"/></map:match>
+            <map:match pattern="dh-fun-run/**"><map:read src="wordpress_archive/dh-fun-run/{1}"/></map:match>
+            <map:match pattern="dh-teaching-tips-and-tricks/**"><map:read src="wordpress_archive/dh-teaching-tips-and-tricks/{1}"/></map:match>
+            <map:match pattern="feed/**"><map:read src="wordpress_archive/feed/{1}"/></map:match>
+            <map:match pattern="for-presenters/**"><map:read src="wordpress_archive/for-presenters/{1}"/></map:match>
+            <map:match pattern="for-reviewers/**"><map:read src="wordpress_archive/for-reviewers/{1}"/></map:match>
+            <map:match pattern="frequently-asked-questions/**"><map:read src="wordpress_archive/frequently-asked-questions/{1}"/></map:match>
+            <map:match pattern="guidelines-for-proposal-authors-and-reviewers/**"><map:read src="wordpress_archive/guidelines-for-proposal-authors-and-reviewers/{1}"/></map:match>
+            <map:match pattern="hello-world/**"><map:read src="wordpress_archive/hello-world/{1}"/></map:match>
+            <map:match pattern="local-entertainment-july-15-20/**"><map:read src="wordpress_archive/local-entertainment-july-15-20/{1}"/></map:match>
+            <map:match pattern="location-and-travel/**"><map:read src="wordpress_archive/location-and-travel/{1}"/></map:match>
+            <map:match pattern="nebraska-repertory-theatre/**"><map:read src="wordpress_archive/nebraska-repertory-theatre/{1}"/></map:match>
+            <map:match pattern="participate-in-the-joint-adho-and-centernet-agm-at-digital-humanities-2013/**"><map:read src="wordpress_archive/participate-in-the-joint-adho-and-centernet-agm-at-digital-humanities-2013/{1}"/></map:match>
+            <map:match pattern="photographs-from-digital-humanities-2013-are-up/**"><map:read src="wordpress_archive/photographs-from-digital-humanities-2013-are-up/{1}"/></map:match>
+            <map:match pattern="photographs-of-dh13/**"><map:read src="wordpress_archive/photographs-of-dh13/{1}"/></map:match>
+            <map:match pattern="photos/**"><map:read src="wordpress_archive/photos/{1}"/></map:match>
+            <map:match pattern="post-archive/**"><map:read src="wordpress_archive/post-archive/{1}"/></map:match>
+            <map:match pattern="preliminary-schedule-up/**"><map:read src="wordpress_archive/preliminary-schedule-up/{1}"/></map:match>
+            <map:match pattern="program-for-digital-humanities-2013-is-up/**"><map:read src="wordpress_archive/program-for-digital-humanities-2013-is-up/{1}"/></map:match>
+            <map:match pattern="proposal-deadline-extended-two-days/**"><map:read src="wordpress_archive/proposal-deadline-extended-two-days/{1}"/></map:match>
+            <map:match pattern="registration/**"><map:read src="wordpress_archive/registration/{1}"/></map:match>
+            <map:match pattern="registration-draft/**"><map:read src="wordpress_archive/registration-draft/{1}"/></map:match>
+            <map:match pattern="registration-for-digital-humanities-is-now-open/**"><map:read src="wordpress_archive/registration-for-digital-humanities-is-now-open/{1}"/></map:match>
+            <map:match pattern="registration-opens-april-1-details-available-now/**"><map:read src="wordpress_archive/registration-opens-april-1-details-available-now/{1}"/></map:match>
+            <map:match pattern="reminder-call-for-bursaries-is-due-soon/**"><map:read src="wordpress_archive/reminder-call-for-bursaries-is-due-soon/{1}"/></map:match>
+            <map:match pattern="room-technology-and-food-costs-for-workshops/**"><map:read src="wordpress_archive/room-technology-and-food-costs-for-workshops/{1}"/></map:match>
+            <map:match pattern="schedule-and-events/**"><map:read src="wordpress_archive/schedule-and-events/{1}"/></map:match>
+            <map:match pattern="sculpture-garden-sheldon/**"><map:read src="wordpress_archive/sculpture-garden-sheldon/{1}"/></map:match>
+            <map:match pattern="sheldon-museum-of-art/**"><map:read src="wordpress_archive/sheldon-museum-of-art/{1}"/></map:match>
+            <map:match pattern="test-code-page/**"><map:read src="wordpress_archive/test-code-page/{1}"/></map:match>
+            <map:match pattern="test-schedule-and-events/**"><map:read src="wordpress_archive/test-schedule-and-events/{1}"/></map:match>
+            <map:match pattern="the-international-quilt-study-center-museum/**"><map:read src="wordpress_archive/the-international-quilt-study-center-museum/{1}"/></map:match>
+            <map:match pattern="the-sunken-gardens/**"><map:read src="wordpress_archive/the-sunken-gardens/{1}"/></map:match>
+            <map:match pattern="university-of-nebraska-state-museum/**"><map:read src="wordpress_archive/university-of-nebraska-state-museum/{1}"/></map:match>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <map:match pattern="wp-content/**/*.css">
+                <map:read src="wordpress_archive/wp-content/{2}/{1}.css"/>
+            </map:match>
+            
+            <map:match pattern="*.css">
+                <map:read src="wordpress_archive/{1}.html"/>
+            </map:match>
+            
+            <map:match pattern="wp-content/*">
+                <map:read src="wordpress_archive/wp-content/{1}"/>
+            </map:match>
+            
+            <map:match pattern="wp-content/themes/DH13/js/prettyphoto/script.js">
+                <map:read src="wordpress_archive/wp-content/themes/DH13/js/prettyphoto/script.js"/>
+            </map:match>
+            
+            
+            
+            <!-- / rules for wordpress files -->
+            
+            <map:match pattern="*">
+                <map:read src="{1}"/>
+            </map:match>
+            
+            <map:match pattern="abstracts/*.xml">
+                <map:read src="xml/documents/{1}.xml"/>
+            </map:match>
+            
+            <map:match pattern="files/downloads/**">
+                <map:read src="files/downloads/{1}"/>
+            </map:match>
+            
+           <!-- <map:match pattern="abstracts/files/downloads/DH2013_conference_abstracts_print.pdf">
+                <map:read src="abstracts/files/downloads/DH2013_conference_abstracts_print.pdf"/>
+            </map:match>-->
+            
+            
+            
+            <map:match pattern="abstracts/files/downloads/**">
+                <map:read src="files/downloads/{1}"/>
+            </map:match>
+            
+          
+            
+            
+        </map:pipeline>
+    </map:pipelines>
+</map:sitemap>
