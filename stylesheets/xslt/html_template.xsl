@@ -36,9 +36,8 @@
                 <link rel='canonical' href='{$siteroot}schedule-and-events/program/' />
             </head>
             
-            <body class="page-child page-template page-template-no_sidebar-php two-column right-sidebar abstracts_section">
-                        
-                <div id="page" class="hfeed">
+            <body id="#page" class="page-child page-template page-template-no_sidebar-php two-column right-sidebar abstracts_section">
+          
                     <header id="branding" role="banner">
                         <div class="header">
                             <hgroup>
@@ -46,19 +45,18 @@
                                 
                                 <!-- Made change so that there are spand in the title-->
                                 
-                                <h1 id="site-title"><span><a href="{$siteroot}" title="Digital Humanities 2013" rel="home"><span class="dh"><span class="digital">Digital</span> <span class="humanities">Humanities</span></span> <span class="date_header">2013</span></a></span></h1>
+                                <div id="site-title"><span><a href="{$siteroot}" title="Digital Humanities 2013" rel="home"><span class="dh"><span class="digital">Digital</span> <span class="humanities">Humanities</span></span> <span class="date_header sr-only">2013</span></a></span></div>
                                 
                                 
                                 
                                 
-                                <h2 id="site-description">University of Nebraska–Lincoln, 16-19 July 2013</h2>
+                                <div id="site-description">University of Nebraska–Lincoln, 16-19 July 2013</div>
                             </hgroup>
                             
                             
                             
                             
-                            <nav id="access" role="navigation">
-                                <h3 class="assistive-text">Main menu</h3>
+                            <nav id="access" role="navigation" aria-label="Main Menu">
                                 <div class="skip-link"><a class="assistive-text" href="#content" title="Skip to primary content">Skip to primary content</a></div>
                                 <div class="skip-link"><a class="assistive-text" href="#secondary" title="Skip to secondary content">Skip to secondary content</a></div>
                                 
@@ -76,7 +74,7 @@
                     </header><!-- #branding -->
                     
                     
-                    <div id="main">
+                    <main id="main">
                         
                         
                         <div id="primary" class="no_sidebar">
@@ -114,13 +112,13 @@
                         </div><!-- #primary -->
                         
                         
-                    </div><!-- #main -->
+                    </main><!-- #main -->
                     
                     <footer id="colophon" role="contentinfo">
                         
                         
                         <div id="supplementary" class="two">
-                            <div id="first" class="widget-area" role="complementary">
+                            <div id="first" class="widget-area">
                                 <aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
                                     <li>
                                         <a href="{$siteroot}dh-teaching-tips-and-tricks/" title="Pedagogy Lightning Talks at the ACH AGM">Pedagogy Lightning Talks at the ACH AGM</a>
@@ -168,7 +166,7 @@
                            
                         </div>
                     </footer><!-- #colophon -->
-                </div><!-- #page -->
+                <!-- #page -->
                 
                         
 

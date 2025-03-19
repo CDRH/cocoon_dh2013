@@ -73,9 +73,10 @@ a:visited {
 .header {
 	margin: -30px -30px 10px -30px; /* must match padding on .pagewrap */
 	background-color: #494a4a;
+	overflow: auto;
 }
 
-.header h1 {
+.header #site-title {
 	text-align: center;
 	line-height: 1;
 	font-size: 3em;
@@ -83,39 +84,29 @@ a:visited {
 	color: #fff;
 }
 
-.header h1 a {
+.header #site-title a {
 	text-decoration: none;
 	color: #fff;
 }
 
-.header h1 {
+.header #site-title {
 	padding: .1em 0 0 0;
 	margin: auto;
 }
 
-.header h2 {
+.header #site-description {
 	text-align: center;
 	line-height: 1;
 	font-size: 2em;
 	text-decoration: none;
-}
-
-.header h2 a {
-	text-decoration: none;
-	color: #fff;
-}
-
-.header h2 {
+	width: 60%; float: left;
 	padding: 0 0 1em 0;
 	margin: auto;
 }
 
-.header {
-	overflow: auto;
-}
-
-.header h1 {
-	width: 60%; float: left;
+.header #site-description a {
+	text-decoration: none;
+	color: #fff;
 }
 
 .header form {
@@ -733,7 +724,7 @@ div.thumbnail_listing_images a:hover p {
    ========================================================================== */
 
 /* For image replacement */
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; line-height: 0; }
 .ir br { display: none; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
@@ -751,7 +742,7 @@ div.thumbnail_listing_images a:hover p {
 /* Contain floats: h5bp.com/q */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+.clearfix { zoom: 1; }
 
 
 
