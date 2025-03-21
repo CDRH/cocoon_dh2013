@@ -39,6 +39,12 @@
       <body id="#page" class="page-child page-template page-template-no_sidebar-php two-column right-sidebar abstracts_section">
 
         <header id="branding" role="banner">
+          <a class="sr-only sr-only-focusable" href="#main">Skip to main content</a>
+          <div class="static-banner-wrapper">
+            <div class="static-banner">
+              <p>This version of the website was created in 2025. See the <a href="info.html">Site Information Page</a> for contact information, data downloads, and other details.</p>
+            </div>
+          </div>
           <div class="header">
             <hgroup>
               <!-- <h1 id="site-title"><span><a href="{$siteroot}" title="Digital Humanities 2013" rel="home">Digital Humanities 2013</a></span></h1> -->
