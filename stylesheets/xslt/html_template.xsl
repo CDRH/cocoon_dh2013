@@ -84,7 +84,7 @@
                                 
                                 
                                 
-                                <article id="post-489" class="post-489 page type-page status-publish hentry">
+                                <div id="post-489" class="post-489 page type-page status-publish hentry">
                                     <header class="entry-header">
                                         <h1 class="entry-title">Abstracts</h1>
                                         
@@ -103,7 +103,7 @@
                                     </div><!-- .entry-content -->
                                     
                                    
-                                </article><!-- #post-489 -->
+                                </div><!-- #post-489 -->
                                 
                                
                                 
